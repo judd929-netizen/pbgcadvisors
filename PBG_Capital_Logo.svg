@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120">
+  <rect width="420" height="120" fill="none"/>
+  <!-- ascending bars -->
+  <g>
+    <rect x="24" y="60" width="8" height="14" rx="2" fill="#1a5fb0"/>
+    <rect x="38" y="48" width="8" height="26" rx="2" fill="#1a5fb0"/>
+    <rect x="52" y="34" width="8" height="40" rx="2" fill="#1a5fb0"/>
+  </g>
+  <!-- wordmark -->
+  <text x="78" y="66" font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
+        font-size="52" font-weight="700" letter-spacing="4" fill="#0f2040">PBG</text>
+  <!-- rule -->
+  <rect x="80" y="82" width="230" height="1.5" fill="#0f2040" opacity="0.25"/>
+  <!-- subtitle -->
+  <text x="80" y="100" font-family="'DM Mono', 'Courier New', monospace"
+        font-size="13" letter-spacing="6" fill="#4a6280">CAPITAL ADVISORS</text>
+</svg>
