@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PBG Capital Advisors LLC | M&A Advisory | Palm Beach Gardens, FL</title>
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
 <style>
@@ -91,6 +95,10 @@ nav.scrolled {
   font-size: 7.5px; font-weight: 400; letter-spacing: 0.28em;
   text-transform: uppercase; color: var(--steel);
 }
+/* Seal logo images */
+.brand-logo { display:block; height:44px; width:auto; }
+.footer-brand .brand-logo { height:58px; }
+@media (max-width: 600px){ .brand-logo { height:38px; } }
 /* Nav — bars in amber on light background */
 nav .nav-logo-bars span { background: var(--amber); }
 /* Footer — invert for dark background, ivory bars */
@@ -1000,11 +1008,7 @@ footer {
 <!-- ═══════════ NAV ═══════════ -->
 <nav id="navbar">
   <a class="nav-brand" onclick="showPage('home')">
-    <div class="nav-logo-stacked">
-      <div class="nav-logo-pbc">PBG</div>
-      <div class="nav-logo-rule"></div>
-      <div class="nav-logo-sub">Capital Advisors LLC</div>
-    </div>
+    <img class="brand-logo" src="PBG_Logo_Primary_Light_Transparent.png" alt="PBG Capital Advisors">
   </a>
   <div class="nav-links">
     <a onclick="showPage('about')" data-page="about">About</a>
@@ -1629,7 +1633,9 @@ footer {
 
       <!-- ADAM -->
       <div class="team-card">
-        <img src="Adam-wilson.jpg" alt="Adam Wilson" style="width:120px;height:120px;border-radius:50%;object-fit:cover;object-position:center top;margin-bottom:24px;display:block;">
+        <div class="tc-photo-placeholder">
+          <span>Photo<br>Coming Soon</span>
+        </div>
         <div class="tc-header">
           <div class="tc-name">Adam Wilson</div>
           <div class="tc-title">Co-Founder &amp; Managing Director — Tax &amp; Advisory</div>
@@ -1772,16 +1778,7 @@ footer {
 <footer>
   <div class="footer-brand">
     <div class="nav-brand" onclick="showPage('home')">
-      <div class="nav-logo-stacked">
-        <div class="nav-logo-top">
-          <div class="nav-logo-bars">
-            <span></span><span></span><span></span>
-          </div>
-          <div class="nav-logo-pbc">PBG</div>
-        </div>
-        <div class="nav-logo-rule"></div>
-        <div class="nav-logo-sub">Capital Advisors LLC</div>
-      </div>
+      <img class="brand-logo" src="PBG_Logo_Primary_Reversed_Transparent.png" alt="PBG Capital Advisors">
     </div>
     <div style="font-size:12px;color:rgba(255,255,255,0.25);margin-top:6px;font-weight:300;">
       2000 PGA Blvd, Suite 4440 · Palm Beach Gardens, FL 33408
